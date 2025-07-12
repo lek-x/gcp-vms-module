@@ -1,4 +1,4 @@
-# GCP VM Module
+# GCP VMs Module
 
 This module creates a Google Cloud Platform (GCP) Virtual instance(s).
 
@@ -19,7 +19,7 @@ Terraform >= 1.9.8
 To use this module, include it in your Terraform configuration and provide the required variables.
 
 ```terraform
-module "gcp-instaces" {
+module "gcp-vms" {
   source  = "git::https://github.com/lek-x/gcp-vms-module.git"
 
   project   = "your-gcp-project-id"
